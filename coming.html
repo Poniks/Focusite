@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Projektv1</title>
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700&amp;subset=latin-ext" rel="stylesheet">
+    <style>
+      body {
+        overflow: hidden;
+      }
+      .coming {
+        height: calc(100vh - 150px);
+      }
+      .coming h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 60%;
+      }
+      @media (max-width: 1600px) {
+        .footer{
+          margin-top: 30px;
+        }
+      }
+      @media (max-width: 450px) {
+        .footer {
+          height: 150px;
+        }
+        .footer .rights {
+          line-height: 30px;
+          padding-top: 25px;
+          margin-top: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <img src="img/background_top.png" alt="" class="background_top">
+    <img src="img/home-mobile-top-wave.png" alt="" class="background_top_mobile">
+    <div class="container coming">
+      <div id="top-nav">
+        <nav>
+          <a href="index.html" id="focusite"><img src="img/logo.png" alt=""></a>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div>
+            <ul>
+              <li><a href="index.html" class="menu">Home</a></li>
+              <li><a href="coming.html" class="menu">Oferta</a></li>
+              <li><a href="coming.html" class="menu">Portfolio</a></li>
+              <li><a href="coming.html" class="menu">Kontakt</a></li>
+              <li><a href="coming.html" id="zapytaj">Zapytaj o wycenę</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <h2>Podstrona w trakcji aktualizacji.
+      Wracamy już wkrótce!</h2>
+    </div>
+    <section class="footer">
+      <img src="img/background_bottom.png" alt="" class="background_bottom">
+      <img src="img/home-mobile-bottom-wave.png" alt="" class="background_bottom_mobile">
+      <div class="container">
+        <div class="rights lg-6 sm-6 xs-12">
+          <p>© FOCUSITE.PL<br> ALL RIGHTS RESERVED.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="http://localhost:35729/livereload.js"></script>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
